@@ -1,0 +1,15 @@
+rules:
+  - pattern: '/'
+    data:
+      page:
+        uri: 'https://raw.githubusercontent.com/feramhq/transity/master/readme.md'
+        type: 'https'
+        force-mime-type: 'text/markdown'
+
+  - pattern: '/adrian'
+    template: page.html
+    data:
+      page:
+        uri: 'https://adriansieber.com'
+        type: 'https'
+        force-mime-type: 'text/html'
