@@ -1,5 +1,6 @@
 rules:
   - pattern: '/'
+    template: page.html
     data:
       page:
         uri: 'https://raw.githubusercontent.com/feramhq/transity/master/readme.md'
